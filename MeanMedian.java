@@ -15,6 +15,8 @@ public class MeanMedian {
     
     System.out.println("Enter a day (01-31)");
     s[2] = in.nextLine();
-  }
+    
+    in.close();
+  } // End of: main()
 
 } // End of: class
