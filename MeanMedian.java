@@ -7,16 +7,21 @@ public class MeanMedian {
     
     Scanner in = new Scanner(System.in);
     
-    System.out.println("Emter a year (2012-2017)");
+    System.out.println("Enter a year (2017)");
     s[0] = in.nextLine();
     
-    System.out.println("Enter a month (01-12)");
+    System.out.println("Enter a month (01-06)");
     s[1] = in.nextLine();
     
-    System.out.println("Enter a day (01-31)");
+    System.out.println("Enter a day (15");
     s[2] = in.nextLine();
     
     in.close();
   } // End of: main()
+  
+  public static ArrayList<Double> getData(String type, String[] s)
+    throws NumberFormatException, IOException {
+    
+  } // End of: getData()
 
 } // End of: class
