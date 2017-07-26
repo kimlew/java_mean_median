@@ -1,4 +1,6 @@
 import java.io.BufferedReader;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class MeanMedian {
 
@@ -21,6 +23,8 @@ public class MeanMedian {
   
   public static ArrayList<Double> getData(String type, String[] s)
     throws NumberFormatException, IOException {
+    
+   
     
   } // End of: getData()
 
