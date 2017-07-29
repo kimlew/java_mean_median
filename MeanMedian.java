@@ -29,6 +29,7 @@ public class MeanMedian {
       s[0] + s[0] + "_" + s[1] + "_" + s[2] + "/" + type);
     */
    
+   BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
     
   } // End of: getData()
 
