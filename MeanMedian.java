@@ -29,7 +29,7 @@ public class MeanMedian {
     /*URL dataSource = new URL("http://lpo.dt.navy.mil/data/DM/" +
       s[0] + s[0] + "_" + s[1] + "_" + s[2] + "/" + type);
     */
-    // TODO: Add in correct syntax: dataSource = "distances_run.txt";
+    // TODO: Add in correct syntax: String?? dataSource = "distances_run.txt";
    
     // TODO: Refer to filename, not URL dataSource
     BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
