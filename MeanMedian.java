@@ -29,8 +29,11 @@ public class MeanMedian {
       s[0] + s[0] + "_" + s[1] + "_" + s[2] + "/" + type);
     */
    
+   // TODO: Refer to filename, not URL dataSource
    BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
-    
+  
+   ArrayList<Double> distRunData = new ArrayList<Double>();
+  
   } // End of: getData()
 
 } // End of: class
