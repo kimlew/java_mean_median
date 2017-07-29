@@ -25,6 +25,9 @@ public class MeanMedian {
   public static ArrayList<Double> getData(String type, String[] s)
     throws NumberFormatException, IOException {
     
+    /*URL dataSource = new URL("http://lpo.dt.navy.mil/data/DM/" +
+      s[0] + s[0] + "_" + s[1] + "_" + s[2] + "/" + type);
+    */
    
     
   } // End of: getData()
