@@ -22,6 +22,7 @@ public class MeanMedian {
     in.close();
   } // End of: main()
   
+  // Gets data and returns it in an ArrayList.
   public static ArrayList<Double> getData(String type, String[] s)
     throws NumberFormatException, IOException {
     
@@ -35,6 +36,8 @@ public class MeanMedian {
     
     ArrayList<Double> distRunData = new ArrayList<Double>();
     String inputLine;
+    
+    while ( inputLine
     
   } // End of: getData()
 
