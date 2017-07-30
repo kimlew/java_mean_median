@@ -7,7 +7,7 @@ public class MeanMedian {
 
   public static void main(String[] args) throws IOException {
     
-    String[] s = { "", "", "" };
+    String[] s = { "", "", "" }; // String array to hold user input.
     
     /*
     Scanner in = new Scanner(System.in);
