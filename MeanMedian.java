@@ -23,9 +23,9 @@ public class MeanMedian {
     
     System.out.println("Enter a day (15");
     s[2] = in.nextLine();
-    
-    in.close();
     */
+    in.close(); // Close scanner.
+    
     ArrayList distRunData = getData(null, null);
     System.out.println(distRunData);
     /*
