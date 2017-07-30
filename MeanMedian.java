@@ -13,10 +13,11 @@ public class MeanMedian {
     // in the terminal
     Scanner in = new Scanner(System.in); 
     
-    /*
+    // Prompt user to enter a year - for the data they want to see
     System.out.println("Enter a year (2017)");
     s[0] = in.nextLine();
     
+    /*
     System.out.println("Enter a month (01-06)");
     s[1] = in.nextLine();
     
