@@ -89,7 +89,11 @@ public class MeanMedian {
   
   public static void mean(ArrayList<Double> distRunData) {
     double sum = 0;
-  }
+    
+    for (double i : distRunData) {
+    }
+    
+  } // End of: mean()
 
 } // End of: class
 
