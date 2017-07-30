@@ -51,34 +51,21 @@ public class MeanMedian {
     /* get data() - takes 1 input, a string array - that contains the 3 values
     for the day
     In the main() method: access getData() method - get values distRunData
-Use input - take advantage of structure of given URL 
-- to systematically generate the correct URL for the data based on the input
 
-Rather than typing the whole URL out in a string, use this format:
-- URL is set right up until the date - at which point s0 s1 and s2 are used
- in place of actual numbers. 
- Note: added / slashes and _ underscores in quotes - to match the exact 
- formatting of the URL
-
-Important: to match this formatting exactly, or the URL will not detect. 
-With this code, we will now take in user input and get data from the 
-external data source, based on that input.
+Code takes in user input and gets data from the file, based on that input.
 
 Next: operating on that data
 
     */
     
-    /*B4: Note: This wind URL is gone - so I cannot use.
-    URL dataSource = new URL("http://lpo.dt.navy.mil/data/DM/" +
-      s[0] + s[0] + "_" + s[1] + "_" + s[2] + "/" + type);
-    BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
-    */
+    // Note: This wind URL is gone - so I cannot use.
+    // BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
    
     // Note: Refer to file using file name instead.
     // stream - Java's term for an external data source where data is read 
     // 1 item at a time, rather than downloaded in a single chunk. 
     // Want: To read 1 line of this file at a time, so use this stream.
-    String dataSource = "distances_run.txt"; // + s[0] + s[0] + "_" 
+    String dataSource = "distances_run.txt";
     BufferedReader data = new BufferedReader(new FileReader(dataSource));
     
     // Define distRunData using an array list - since easiest way to store data
