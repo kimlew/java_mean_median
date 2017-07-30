@@ -88,6 +88,7 @@ public class MeanMedian {
   /* Operating on the data - mean() & median() */
   
   public static void mean(ArrayList<Double> distRunData) {
+    double sum = 0;
   }
 
 } // End of: class
