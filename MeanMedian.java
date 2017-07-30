@@ -93,7 +93,8 @@ public class MeanMedian {
     for (double i : distRunData) {
       sum += i;
     }
-
+    
+    return sum / distRunData.size();
   } // End of: mean()
 
 } // End of: class
