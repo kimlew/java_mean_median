@@ -51,10 +51,8 @@ public class MeanMedian {
   // Gets data from a file and returns it in an ArrayList.
   public static ArrayList<Double> getData(String[] s)
     throws NumberFormatException, IOException {
-    // get data() - takes 1 input, a string array - that contains the 3 values
-    // for the day
-    
-//    Next: operating on that data
+    // get data() - takes 1 input, a string array - that contains the input value
+
     // Note: Wind URL gone - so can't use. Refer to file - using file name instead.
     // Note: If multiple inputs from user, use: InputStreamReader(dataSource.openStream)));
     // stream - Java's term for an external data source where data is read 
@@ -84,8 +82,13 @@ public class MeanMedian {
     // Close the data stream and return the array list.
     data.close();
     return distRunData;
-    
   } // End of: getData()
+  
+      
+  /* Operating on the data - mean() & median() */
+  
+  public static void mean(ArrayList<Double> distRunData) {
+  }
 
 } // End of: class
 
