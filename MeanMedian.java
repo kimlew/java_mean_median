@@ -46,6 +46,9 @@ public class MeanMedian {
     [14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
     */
     
+    Double theMean = mean(distRunData);
+    System.out.println("Mean: " + theMean);
+    
   } // End of: main()
   
   // Gets data from a file and returns it in an ArrayList.
