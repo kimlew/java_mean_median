@@ -28,6 +28,9 @@ public class MeanMedian {
     */
     in.close(); // Close scanner
     
+    // Access getData() method - takes in user input & gets distRunData data
+    // from the file, based on that input
+
     ArrayList distRunData = getData(s); // To test: getData(null)
     System.out.println(distRunData);
     /* With getData(s):
@@ -48,20 +51,12 @@ public class MeanMedian {
   // Gets data from a file and returns it in an ArrayList.
   public static ArrayList<Double> getData(String[] s)
     throws NumberFormatException, IOException {
-    /* get data() - takes 1 input, a string array - that contains the 3 values
-    for the day
-    In the main() method: access getData() method - get values distRunData
-
-Code takes in user input and gets data from the file, based on that input.
-
-Next: operating on that data
-
-    */
+    // get data() - takes 1 input, a string array - that contains the 3 values
+    // for the day
     
-    // Note: This wind URL is gone - so I cannot use.
-    // BufferedReader data = new BufferedReader(new InputStreamReader(dataSource.openStream)));
-   
-    // Note: Refer to file using file name instead.
+//    Next: operating on that data
+    // Note: Wind URL gone - so can't use. Refer to file - using file name instead.
+    // Note: If multiple inputs from user, use: InputStreamReader(dataSource.openStream)));
     // stream - Java's term for an external data source where data is read 
     // 1 item at a time, rather than downloaded in a single chunk. 
     // Want: To read 1 line of this file at a time, so use this stream.
