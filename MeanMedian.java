@@ -30,16 +30,17 @@ public class MeanMedian {
     
     ArrayList distRunData = getData(s); // To test: getData(null)
     System.out.println(distRunData);
-    /*
+    /* With getData(s):
+    mac$ javac MeanMedian.java
+    mac$ java MeanMedian
+    Enter a year (2017)
+    2017
+    [14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
+
+    With getData(null):
     mac$ javac MeanMedian.java
     mac$ java MeanMedian
     [14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
-    
-    mac$ javac MeanMedian.java
-mac$ java MeanMedian
-Enter a year (2017)
-2017
-[14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
     */
     
   } // End of: main()
