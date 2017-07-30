@@ -9,9 +9,11 @@ public class MeanMedian {
     
     String[] s = { "", "", "" }; // String array to hold user input.
     
-    /*
-    Scanner in = new Scanner(System.in);
+    // Initialize a scanner on system.in - which refers to any input given 
+    // in the terminal
+    Scanner in = new Scanner(System.in); 
     
+    /*
     System.out.println("Enter a year (2017)");
     s[0] = in.nextLine();
     
