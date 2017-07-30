@@ -91,8 +91,9 @@ public class MeanMedian {
     double sum = 0;
     
     for (double i : distRunData) {
+      sum += i;
     }
-    
+
   } // End of: mean()
 
 } // End of: class
