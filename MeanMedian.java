@@ -24,7 +24,7 @@ public class MeanMedian {
     System.out.println("Enter a day (15");
     s[2] = in.nextLine();
     */
-    in.close(); // Close scanner.
+    in.close(); // Close scanner
     
     ArrayList distRunData = getData(null, null);
     System.out.println(distRunData);
@@ -37,8 +37,16 @@ public class MeanMedian {
   } // End of: main()
   
   // Gets data from a file and returns it in an ArrayList.
-  public static ArrayList<Double> getData(String type, String[] s)
+  public static ArrayList<Double> getData(String[] s)
     throws NumberFormatException, IOException {
+    /*
+    get data takes in two inputs, a string called type and then a string array. The string array contains the three values for the day, which we just specified, and the type array will specify whether we want wind gusts, air temperature, or barometric pressure. In the main method we have three lines accessing this method and each one is getting the values for different type of data.
+
+But how can we actually use this input? Essentially we're going to take advantage of the structure of the given URL to systematically generate the correct URL for the data based on the input. Rather than typing the whole URL out in a string, we can use the following format. The URL is set right up until the date at which point s0 s1 and s2 are used in place of actual numbers, and then the type is specified. Note that I also added in a bunch of slashes and underscores in quotes to match the exact formatting of the URL.
+
+It's important to ensure that you do match this formatting exactly, otherwise, the URL will not detect. With this code, we will now take in user input and get data from the external data source, based on that input. Now let's move on to operating on that data
+
+    */
     
     /*B4: 
     URL dataSource = new URL("http://lpo.dt.navy.mil/data/DM/" +
