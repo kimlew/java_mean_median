@@ -15,7 +15,7 @@ public class MeanMedian {
     
     // Prompt user to enter a year - for the data they want to see
     System.out.println("Enter a year (2017)");
-    s[0] = in.nextLine();
+    s[0] = in.nextLine(); // Get what they type on next line as input.
     
     /*
     System.out.println("Enter a month (01-06)");
