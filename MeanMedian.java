@@ -31,7 +31,7 @@ public class MeanMedian {
     // Access getData() method - takes in user input & gets distRunData data
     // from the file, based on that input
 
-    ArrayList distRunData = getData(s); // To test: getData(null)
+    ArrayList<Double> distRunData = getData(s); // To test: getData(null)
     System.out.println(distRunData);
     /* With getData(s):
     mac$ javac MeanMedian.java
@@ -98,6 +98,17 @@ public class MeanMedian {
     }
     
     return sum / distRunData.size();
+    
+    /*
+    mac$ javac MeanMedian.java
+Note: MeanMedian.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+mac$ java MeanMedian
+Enter a year (2017)
+2017
+[14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
+Mean: 16.114285714285714
+*/
   } // End of: mean()
 
 } // End of: class
