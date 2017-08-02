@@ -113,7 +113,6 @@ public class MeanMedian {
 */
   
   public static double median(ArrayList<Double> distRunData) {
-  
     Collections.sort(distRunData);
     
     if ( (distRunData.size() / 2) * 2 == distRunData.size() ) {
@@ -130,8 +129,7 @@ public class MeanMedian {
       // Get middle value for median.
       return distRunData.get(distRunData.size() / 2);
     }
-  
-  }
+  } // End of: median()
 
 } // End of: class
 
