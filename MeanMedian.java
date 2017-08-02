@@ -119,8 +119,9 @@ public class MeanMedian {
       // If size of data set is even, take average of the 2 middle values
       // 6 / 2 = 3   3 * 2 = 6  Result is NOT equal to ArrayList size - so even
       // Get approx. mid value + value just before & divide by 2 for median
-      return distRunData.get(distRunData.size() / 2) + 
-      distRunData.get(distRunData.size() / 2 -1)) / 2;
+      double approxMidValue = distRunData.get(distRunData.size() / 2);
+      double beforeApproxMidValue = distRunData.get(distRunData.size() / 2 -1);
+      return (approxMidValue + beforeApproxMidValue) / 2;
     }
     else { 
       // Result is NOT equal to ArrayList size - so data set is odd
