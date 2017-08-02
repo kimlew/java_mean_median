@@ -50,6 +50,9 @@ public class MeanMedian {
     Double theMean = mean(distRunData);
     System.out.println("Mean: " + theMean);
     
+    Double theMedian = median(distRunData);
+    System.out.println("Median: " + theMedian);
+    
   } // End of: main()
   
   // Gets data from a file and returns it in an ArrayList.
