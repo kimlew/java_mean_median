@@ -99,17 +99,22 @@ public class MeanMedian {
     
     return sum / distRunData.size();
     
-    /*
-    mac$ javac MeanMedian.java
-Note: MeanMedian.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-mac$ java MeanMedian
-Enter a year (2017)
-2017
-[14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
-Mean: 16.114285714285714
-*/
+    
   } // End of: mean()
+  /*
+    mac$ javac MeanMedian.java
+    Note: MeanMedian.java uses unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+    mac$ java MeanMedian
+    Enter a year (2017)
+    2017
+    [14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
+    Mean: 16.114285714285714
+*/
+  
+  public static double median(ArrayList<Double> distRunData) {
+  
+  }
 
 } // End of: class
 
