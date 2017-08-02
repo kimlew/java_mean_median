@@ -137,4 +137,22 @@ public class MeanMedian {
   } // End of: median()
 
 } // End of: class
+/* For ODD-sized ArrayList (state mid value):
+mac$ javac MeanMedian.java
+mac$ java MeanMedian
+Enter a year (2017)
+2017
+[14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7]
+Mean: 16.114285714285714
+Median: 14.1
 
+For EVEN-sized ArrayList(get 2 mid values and divide by 2):
+mac$ javac MeanMedian.java
+mac$ java MeanMedian
+Enter a year (2017)
+2017
+[14.1, 13.2, 13.3, 20.4, 23.5, 13.6, 14.7, 15.8]
+Mean: 16.075
+Median: 14.399999999999999
+
+*/
