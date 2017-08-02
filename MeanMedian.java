@@ -113,6 +113,7 @@ public class MeanMedian {
 */
   
   public static double median(ArrayList<Double> distRunData) {
+    Collections.sort(distRunData);
   
   }
 
