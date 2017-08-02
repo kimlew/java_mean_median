@@ -127,7 +127,7 @@ public class MeanMedian {
       // 7 / 2 = 3     3 * 2 = 6   - so odd
       // Note: In Java, divide 2 integers - result trucated.
       // Take middle value.
-      
+      return distRunData.get(distRunData.size() / 2);
     }
   
   }
