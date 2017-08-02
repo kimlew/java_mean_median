@@ -113,7 +113,22 @@ public class MeanMedian {
 */
   
   public static double median(ArrayList<Double> distRunData) {
+  
     Collections.sort(distRunData);
+    
+    if ( (distRunData.size() / 2) * 2 == distRunData.size() ) {
+      // If size of data set is even, take average of the 2 middle values
+      // 6 / 2 = 3   3 * 2 = 6  Result is NOT equal to ArrayList size - so even
+      // Take 2 middle values, get mean.
+      
+    }
+    else { 
+      // Result is NOT equal to ArrayList size - so data set is odd
+      // 7 / 2 = 3     3 * 2 = 6   - so odd
+      // Note: In Java, divide 2 integers - result trucated.
+      // Take middle value.
+      
+    }
   
   }
 
